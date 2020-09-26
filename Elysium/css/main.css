@@ -1,10 +1,75 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans");
-
-body {
+/*현재는 비반응형 웹 상태*/
+/*html 파일 전체에 적용되는 기본 배경 설정*/
+html {
     position: absolute;
     left: 0%;
     right: 0%;
     top: 0%;
     bottom: 0%;
-    background-color: #9D1C20;
+
+    background: #9D1C20;
+}
+
+/*body 파트 기본 배경 - 모서리 둥근 사각형 설정*/
+body {
+    position: absolute;
+    left: 8.47%;
+    right: 8.54%;
+    top: 8.56%;
+    bottom: 8.56%;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+/*
+.ask {
+    position: absolute;
+    height: 48px;
+    width: 398px;
+
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: #ffffff;
+    border: 1px solid #a8a9ad;
+    box-sizing: border-box;
+}
+*/
+
+span {
+    /* 처음 방문하셨습니까? */
+    position: absolute;
+    left: 42.92%;
+    right: 47.08%;
+    top: 74.33%;
+    bottom: 23.56%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #000000;
+}
+
+a {
+    /* 환자등록 */
+    position: absolute;
+    left: 53.47%;
+    right: 42.92%;
+    top: 74.43%;
+    bottom: 23.8%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-decoration-line: underline;
+
+    color: #9d1c20;
 }
