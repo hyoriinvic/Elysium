@@ -1,24 +1,3 @@
-html {
-    position: absolute;
-    height: 900px;
-    width: 1440px;
-    left: 0px;
-    top: 0px;
-    border-radius: 0px;
-    background-color: #9D1C20;
-}
-
-/*body 파트 기본 배경 - 모서리 둥근 사각형 설정*/
-body {
-    position: absolute;
-    height: 746px;
-    width: 1195px;
-    left: 122px;
-    top: 77px;
-    border-radius: 10px;
-    background-color: #FFFFFF;
-}
-
 /*경희 한의원 로고 배치*/
 img {
     position: absolute;
@@ -28,7 +7,7 @@ img {
     top: 140px;
 }
 
-/* class 공통된 속성 지정하기 아직 잘 모르겠음 */
+/* class 공통된 속성 지정하기 아직 잘 모르겠음  >> 이해함 */
 .info {
     position: absolute;
     height: 48px;
@@ -67,11 +46,11 @@ img {
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
-    font-style: normal;
     font-weight: 700;
     line-height: 19px;
     letter-spacing: 0em;
     border-radius: 0px;
+    border: 0;
 }
 
 .searchAddress {
