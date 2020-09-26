@@ -1,19 +1,10 @@
-body{
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+body {
     position: absolute;
     left: 0%;
     right: 0%;
     top: 0%;
     bottom: 0%;
     background-color: #9D1C20;
-}
-
-.square{
-    height: 746px;
-    width: 1195px;
-    
-    /* margin-something: 여백 설정*/
-    margin-left: 122px;
-    margin-top: 77px;
-
-    border-radius: 10px; /* 둥근 모서리 설정 */
 }
