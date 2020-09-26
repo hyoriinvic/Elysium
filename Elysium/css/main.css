@@ -2,74 +2,111 @@
 /*html 파일 전체에 적용되는 기본 배경 설정*/
 html {
     position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
-
-    background: #9D1C20;
+    height: 900px;
+    width: 1440px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    background-color: #9D1C20;
 }
 
 /*body 파트 기본 배경 - 모서리 둥근 사각형 설정*/
 body {
     position: absolute;
-    left: 8.47%;
-    right: 8.54%;
-    top: 8.56%;
-    bottom: 8.56%;
-
-    background: #FFFFFF;
+    height: 746px;
+    width: 1195px;
+    left: 122px;
+    top: 77px;
     border-radius: 10px;
+    background-color: #FFFFFF;
 }
 
-/*
-.ask {
+/*경희 한의원 로고 배치*/
+img {
     position: absolute;
+    height: 119px;
+    width: 512px;
+    left: 342px;
+    top: 226px;
+    border-radius: 0px;
+}
+
+.info {
     height: 48px;
     width: 398px;
+    margin-left: 399px;
 
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
-
-    background: #ffffff;
-    border: 1px solid #a8a9ad;
+    border: 1px solid #A8A9AD;
     box-sizing: border-box;
+    background-color: #FFFFFF;
 }
-*/
 
-span {
-    /* 처음 방문하셨습니까? */
+.patientName {
+    margin-top: 380px;
+}
+
+.patientPhone {
+    margin-top: 10px;
+}
+
+/* 증상 입력하기 button */
+#submitInfo {
     position: absolute;
-    left: 42.92%;
-    right: 47.08%;
-    top: 74.33%;
-    bottom: 23.56%;
+    height: 56px;
+    width: 398px;
+    left: 399px;
+    margin-top: 15px;
+    border-radius: 0px;
+    background-color: #9D1C20;
 
     font-family: Roboto;
+    font-size: 16px;
     font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
+    font-weight: 700;
     line-height: 19px;
-    /* identical to box height */
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* 아래 2개는 왜 시키는대로 해도 한 줄에 안 나오는 거죠?*/
+/* 처음 방문하셨습니까? */
+span {
+    position: absolute;
+    height: 19px;
+    width: 144px;
+    margin-left: 496px;
+    top: 592px;
+    border-radius: nullpx;
+
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
     color: #000000;
 }
 
+/* 환자등록 */
 a {
-    /* 환자등록 */
     position: absolute;
-    left: 53.47%;
-    right: 42.92%;
-    top: 74.43%;
-    bottom: 23.8%;
+    height: 16px;
+    width: 52px;
+    left: 648px;
+    right: 495px;
+    top: 592.84px;
+    border-radius: nullpx;
 
     font-family: Roboto;
+    font-size: 14px;
     font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 16px;
-    text-decoration-line: underline;
+    font-weight: 700;
+    line-height: 16.41px;
+    letter-spacing: 0em;
+    text-align: justify;
 
     color: #9d1c20;
 }

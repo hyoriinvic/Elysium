@@ -9,19 +9,20 @@
 </head>
 
 <body>
-    <image src="image/logo.png" />
+    <img src="image/logo.png" />
     <form>
         <main>
-            <div class="ask name"><input required placeholder="이름" type="text" /></div>
-            <div class="ask phone"><input required placeholder="전화번호" type="tel" /></div>
+            <div><input class="info patientName" required placeholder="이름" type="text" /></div>
+            <div><input class="info patientPhone" required placeholder="전화번호" type="tel" /></div>
         </main>
-        <div><input type="submit" value="증상 입력하기" /></div>
+        <div><button id="submitInfo">증상 입력하기</button></div>
         <div>
             <span>처음 방문하셨습니까?</span>
             <a href="file:///C:/Users/eee56/OneDrive/%EC%82%AC%EC%A7%84/%EB%AC%B8%EC%84%9C/GitHub/TIL_Elysium/elysium/registration.html"
                 target="_self">환자등록</a>
         </div>
     </form>
+    <!-- <script src="js/main.js"></script> -->
 </body>
 
 </html>
