@@ -100,7 +100,24 @@ span {
     margin-left: 606px;
 }
 
-.submitInfo {
+#submitInfo {
+    position: absolute;
+    height: 56px;
+    width: 398px;
+    left: 399px;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgba(184, 184, 184, 1);
+
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+
     background-color: #9D1c20;
     top: 640px;
 }

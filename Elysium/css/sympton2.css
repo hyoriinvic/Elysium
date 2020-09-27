@@ -1,0 +1,271 @@
+#body {
+    position: absolute;
+    height: 596px;
+    width: 503px;
+    margin-left: 163px;
+    margin-top: 84px;
+    border-radius: 0px;
+}
+
+#head {
+    position: absolute;
+    height: 262px;
+    width: 284px;
+    left: 773px;
+    top: 68px;
+    border-radius: 0px;
+}
+
+/* 작은 버튼 기본 설정*/
+.small-btn {
+    position: absolute;
+    height: 38px;
+    width: 77px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #B8B8B8;
+
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.small-btn:focus {
+    background-color: rgba(157, 28, 32, 0.75);
+}
+
+/* 작은 버튼 각 요소별 위치 설정*/
+.element1 {
+    left: 48px;
+    top: 106px;
+}
+
+.element2 {
+    left: 48px;
+    top: 185px;
+}
+
+.element3 {
+    left: 48px;
+    top: 263px;
+}
+
+.element4 {
+    left: 48px;
+    top: 341px;
+}
+
+.element5 {
+    left: 48px;
+    top: 419px;
+}
+
+.element6 {
+    left: 686px;
+    top: 223px;
+}
+
+.element7 {
+    left: 686px;
+    top: 302px;
+}
+
+.element8 {
+    left: 686px;
+    top: 380px;
+}
+
+.element9 {
+    left: 686px;
+    top: 458px;
+}
+
+.element10 {
+    left: 686px;
+    top: 536px;
+}
+
+.element11 {
+    right: 29px;
+    top: 170px;
+}
+
+.element12 {
+    right: 29px;
+    top: 248px;
+}
+
+.element13 {
+    right: 29px;
+    top: 326px;
+}
+
+.element14 {
+    right: 29px;
+    top: 404px;
+}
+
+/* 큰 버튼 기본 설정 */
+.btn {
+    position: absolute;
+    height: 56px;
+    width: 347px;
+    right: 53px;
+    border-radius: 10px;
+    border: 0;
+
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+/* 기타 버튼 */
+.else {
+    background-color: rgba(184, 184, 184, 1);
+    top: 562px;
+}
+
+.else:focus {
+    background-color: rgba(157, 28, 32, 0.75);
+}
+
+/* 제출하기 버튼 */
+.submitInfo {
+    background-color: #9D1C20;
+    top: 635px;
+}
+
+.clicked {
+    background-color: rgba(157, 28, 32, 0.75);
+}
+
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #9D1C20;
+    box-sizing: border-box;
+
+}
+
+/* 원 안의 원 ... 어떻게 margine 설정해야 하지 ? */
+.circle-wrapper-body {
+    height: 28px;
+    width: 28px;
+}
+
+.circle-wrapper-head {
+    height: 22px;
+    width: 22px;
+}
+
+.small-circle-body {
+    margin-top: 4px;
+    margin-left: 4px;
+    height: 14px;
+    width: 14px;
+    background-color: #9D1C20;
+}
+
+.small-circle-head {
+    margin-top: 2.5px;
+    margin-left: 2.5px;
+    height: 11px;
+    width: 11px;
+    background-color: #9D1C20;
+}
+
+#spot-body1 {
+    left: 281px;
+    top: 167px;
+}
+
+#spot-body2 {
+    left: 233px;
+    top: 195px;
+}
+
+#spot-body3 {
+    left: 205px;
+    top: 302px;
+}
+
+#spot-body4 {
+    left: 281px;
+    top: 288px;
+}
+
+#spot-body5 {
+    left: 191px;
+    top: 368px;
+}
+
+#spot-body6 {
+    left: 527px;
+    top: 231px;
+}
+
+#spot-body7 {
+    left: 527px;
+    top: 316px;
+}
+
+#spot-body8 {
+    left: 562px;
+    top: 382px;
+}
+
+#spot-body9 {
+    left: 555px;
+    top: 492px;
+}
+
+#spot-body10 {
+    left: 555px;
+    top: 607px;
+}
+
+#spot-head11 {
+    right: 247px;
+    top: 178px;
+}
+
+#spot-head12 {
+    right: 220px;
+    top: 195px;
+}
+
+#spot-head13 {
+    right: 269px;
+    top: 201px;
+}
+
+#spot-head14 {
+    right: 269px;
+    top: 223px;
+}
+
+.diagonal {
+    position: absolute;
+    border: 1px solid #9D1C20;
+}
+
+#line1 {
+    transform: rotate(-161.77deg);
+    margin-top: 153px;
+    margin-left: 120px;
+    /*
+    아니 이렇게 하나하나 설정을 눈대중으로 할 순 없잖아요?
+    margin-top: 125px;
+    margin-left: 125px;
+    */
+}
