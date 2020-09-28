@@ -1,10 +1,10 @@
 /*html 파일 전체에 적용되는 기본 배경 설정*/
 html {
     position: absolute;
-    height: 900px;
-    width: 1440px;
-    left: 0px;
-    top: 0px;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
     border-radius: 0px;
     background-color: #9D1C20;
 }
@@ -12,10 +12,10 @@ html {
 /*body 파트 기본 배경 - 모서리 둥근 사각형 설정*/
 body {
     position: absolute;
-    height: 746px;
-    width: 1195px;
-    left: 122px;
-    top: 77px;
+    left: 8.47%;
+    right: 8.54%;
+    top: 8.56%;
+    bottom: 8.56%;
     border-radius: 10px;
     background-color: #FFFFFF;
 }
