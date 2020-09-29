@@ -66,6 +66,8 @@ span {
   letter-spacing: 0em;
   text-align: left;
 
+
+  white-space: nowrap;
   color: #000000;
 }
 
@@ -74,9 +76,11 @@ a {
   position: absolute;
   height: 16px;
   width: 52px;
-  left: 648px;
+  left: 656px;
+  /*648*/
   right: 495px;
-  top: 592.84px;
+  top: 594px;
+  /*592.84px*/
   border-radius: nullpx;
 
   font-family: Roboto;
@@ -87,5 +91,6 @@ a {
   letter-spacing: 0em;
   text-align: justify;
 
+  white-space: nowrap;
   color: #9d1c20;
 }
