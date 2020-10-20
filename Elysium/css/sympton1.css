@@ -13,7 +13,7 @@ span {
     margin-left: 494px;
     margin-top: 119px;
     border-radius: nullpx;
-    font-family: Roboto;
+
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -32,7 +32,7 @@ span {
     background-color: rgba(184, 184, 184, 1);
 
     color: #FFFFFF;
-    font-family: Roboto;
+
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -45,27 +45,27 @@ span {
     background-color: rgba(157, 28, 32, 0.75);
 }
 
-.element1 {
+#element1 {
     top: 178px;
 }
 
-.element2 {
+#element2 {
     top: 244px;
 }
 
-.element3 {
+#element3 {
     top: 310px;
 }
 
-.element4 {
+#element4 {
     top: 376px;
 }
 
-.element5 {
+#element5 {
     top: 442px;
 }
 
-.element6 {
+#element6 {
     top: 508px;
 }
 
@@ -110,7 +110,6 @@ span {
     background-color: rgba(184, 184, 184, 1);
 
     color: #FFFFFF;
-    font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;

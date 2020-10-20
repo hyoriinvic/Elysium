@@ -1,0 +1,126 @@
+/* sympton2 이미지 2개에 대한 위치 설정 */
+/*body image - 전신 */
+#body {
+    position: absolute;
+    height: 596px;
+    width: 503px;
+    margin-left: 163px;
+    margin-top: 84px;
+    border-radius: 0px;
+}
+/*head image - 머리 */
+#head {
+    position: absolute;
+    height: 262px;
+    width: 284px;
+    left: 773px;
+    top: 68px;
+    border-radius: 0px;
+}
+
+/* 신체 관련 버튼 기본 설정*/
+.small-btn {
+    position: absolute;
+    height: 38px;
+    width: 77px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #b8b8b8;
+
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.small-btn:focus {
+    background-color: rgba(157, 28, 32, 0.75);
+} 
+
+
+
+/* 큰 버튼(기타, 접수하기) 기본 설정 */
+.btn {
+    position: absolute;
+    height: 56px;
+    width: 347px;
+    right: 53px;
+    border-radius: 10px;
+    border: 0;
+
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+/* 기타 버튼 */
+.else {
+    background-color: rgba(184, 184, 184, 1);
+    top: 562px;
+}
+
+.else:focus {
+    background-color: rgba(157, 28, 32, 0.75);
+}
+
+/* 제출하기 버튼 */
+.submitInfo {
+    background-color: #9d1c20;
+    top: 635px;
+}
+
+/* 신체 관련 (작은) 버튼 클릭 시 색 변경*/
+.clicked {
+    background-color: rgba(157, 28, 32, 0.75);
+}
+
+/* spot 관련 설정 */
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #9d1c20;
+    box-sizing: border-box;
+}
+
+.circle-wrapper-body {
+    height: 28px;
+    width: 28px;
+}
+
+.circle-wrapper-head {
+    height: 22px;
+    width: 22px;
+}
+
+.small-circle-body {
+    margin-top: 4px;
+    margin-left: 4px;
+    height: 14px;
+    width: 14px;
+    background-color: #9d1c20;
+}
+
+.small-circle-head {
+    margin-top: 2.5px;
+    margin-left: 2.5px;
+    height: 11px;
+    width: 11px;
+    background-color: #9d1c20;
+}
+
+/* 직선 관련 설정 */
+.diagonal {
+    position: absolute;
+    border: 1px solid #9d1c20;
+    background-color: #9d1c20;
+}
+

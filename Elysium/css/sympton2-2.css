@@ -1,45 +1,4 @@
-#body {
-    position: absolute;
-    height: 596px;
-    width: 503px;
-    margin-left: 163px;
-    margin-top: 84px;
-    border-radius: 0px;
-}
-
-#head {
-    position: absolute;
-    height: 262px;
-    width: 284px;
-    left: 773px;
-    top: 68px;
-    border-radius: 0px;
-}
-
-/* 작은 버튼 기본 설정*/
-.small-btn {
-    position: absolute;
-    height: 38px;
-    width: 77px;
-    border-radius: 10px;
-    border: 0;
-    background-color: #b8b8b8;
-
-    color: #ffffff;
-    font-family: Roboto;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 18px;
-    letter-spacing: 0em;
-    text-align: center;
-}
-
-.small-btn:focus {
-    background-color: rgba(157, 28, 32, 0.75);
-}
-
-/* 작은 버튼 각 요소별 위치 설정*/
+/* 신체 관련 (작은) 버튼 각 요소별 위치 설정*/
 .element1 {
     left: 48px;
     top: 106px;
@@ -110,79 +69,7 @@
     top: 404px;
 }
 
-/* 큰 버튼 기본 설정 */
-.btn {
-    position: absolute;
-    height: 56px;
-    width: 347px;
-    right: 53px;
-    border-radius: 10px;
-    border: 0;
-
-    color: #ffffff;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 19px;
-    letter-spacing: 0em;
-    text-align: center;
-}
-
-/* 기타 버튼 */
-.else {
-    background-color: rgba(184, 184, 184, 1);
-    top: 562px;
-}
-
-.else:focus {
-    background-color: rgba(157, 28, 32, 0.75);
-}
-
-/* 제출하기 버튼 */
-.submitInfo {
-    background-color: #9d1c20;
-    top: 635px;
-}
-
-.clicked {
-    background-color: rgba(157, 28, 32, 0.75);
-}
-
-.circle {
-    position: absolute;
-    border-radius: 50%;
-    border: 3px solid #9d1c20;
-    box-sizing: border-box;
-}
-
-/* 원 안의 원 ... 어떻게 margine 설정해야 하지 ? */
-.circle-wrapper-body {
-    height: 28px;
-    width: 28px;
-}
-
-.circle-wrapper-head {
-    height: 22px;
-    width: 22px;
-}
-
-.small-circle-body {
-    margin-top: 4px;
-    margin-left: 4px;
-    height: 14px;
-    width: 14px;
-    background-color: #9d1c20;
-}
-
-.small-circle-head {
-    margin-top: 2.5px;
-    margin-left: 2.5px;
-    height: 11px;
-    width: 11px;
-    background-color: #9d1c20;
-}
-
+/* spot 각 요소별 위치 설정 */
 #spot-body1 {
     left: 281px;
     top: 167px;
@@ -253,18 +140,12 @@
     top: 223px;
 }
 
-.diagonal {
-    position: absolute;
-    border: 1px solid #9d1c20;
-    background-color: #9d1c20;
-}
-
+/* 라인 각 요소별 위치 설정 */
 #line1 {
     transform: rotate(-161.77deg);
     margin-top: 153px;
     margin-left: 120px;
     /*
-    아니 이렇게 하나하나 설정을 눈대중으로 할 순 없잖아요?
     margin-top: 125px;
     margin-left: 125px;
     */

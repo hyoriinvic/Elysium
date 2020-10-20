@@ -10,8 +10,8 @@
 </head>
 
 <body>
-    <image src="image/logo.png" />
-    <form>
+    <image src="image/logo.png" alt="Kyunghee Oriental Clinic"/>
+    <form method='post' action = "./php/join.php">
         <main>
             <div><input class="info patientName" required placeholder="이름" type="text" /></div>
             <div><input class="info patientPhone" required placeholder="전화번호" type="tel" /></div>
@@ -21,10 +21,10 @@
             </div>
             <div><input class="info identificationNumber" required placeholder="주민등록번호" type="text" required
                     pattern="[0-9]{13}" /></div>
-            <div><input class="info introductor" placeholder="소개환자(선택)" type="text" /></div>
+            <div><input class="info recommender" placeholder="소개환자(선택)" type="text" /></div>
         </main>
         <button class="btn submitInfo" type="button"
-            onclick="location.href='C:/Users/eee56/OneDrive/%EC%82%AC%EC%A7%84/%EB%AC%B8%EC%84%9C/GitHub/TIL_Elysium/elysium/sympton1.html'">증상
+            onclick="location.href='./sympton1.html'">증상
             입력하기</button>
     </form>
 </body>

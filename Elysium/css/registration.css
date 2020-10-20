@@ -7,7 +7,6 @@ img {
     top: 140px;
 }
 
-/* class 공통된 속성 지정하기 아직 잘 모르겠음  >> 이해함 */
 .info {
     position: absolute;
     height: 48px;
@@ -42,8 +41,7 @@ img {
 .btn {
     position: absolute;
     background-color: #9D1C20;
-    color: #FFFFFF;
-    font-family: Roboto;
+
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -74,6 +72,6 @@ img {
     top: 443px;
 }
 
-.introductor {
+.recommender {
     top: 501px;
 }
