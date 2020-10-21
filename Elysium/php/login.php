@@ -14,7 +14,7 @@ if($db){
     echo "connect : Success<br>";
 }
 else{
-    echo "disconnect : 실패<br>";
+    echo "disconnect : Fail<br>";
 }
 
 $result = mysqli_query($db, 'SELECT VERSION() as VERSION');

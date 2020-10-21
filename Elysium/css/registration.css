@@ -57,6 +57,7 @@ img {
     left: 694px;
     top: 385px;
     text-align: center;
+    color: white;
 }
 
 /* 증상 입력하기 button */
@@ -66,6 +67,7 @@ img {
     left: 399px;
     top: 559px;
     text-align: center;
+    color: white;
 }
 
 .identificationNumber {

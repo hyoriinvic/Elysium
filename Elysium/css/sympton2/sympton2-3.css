@@ -1,146 +1,14 @@
-/* 신체 관련 (작은) 버튼 각 요소별 위치 설정*/
-.element1 {
-    left: 48px;
-    top: 106px;
-}
-
-.element2 {
-    left: 48px;
-    top: 185px;
-}
-
-.element3 {
-    left: 48px;
-    top: 263px;
-}
-
-.element4 {
-    left: 48px;
-    top: 341px;
-}
-
-.element5 {
-    left: 48px;
-    top: 419px;
-}
-
-.element6 {
-    left: 686px;
-    top: 223px;
-}
-
-.element7 {
-    left: 686px;
-    top: 302px;
-}
-
-.element8 {
-    left: 686px;
-    top: 380px;
-}
-
-.element9 {
-    left: 686px;
-    top: 458px;
-}
-
-.element10 {
-    left: 686px;
-    top: 536px;
-}
-
-.element11 {
-    right: 29px;
-    top: 170px;
-}
-
-.element12 {
-    right: 29px;
-    top: 248px;
-}
-
-.element13 {
-    right: 29px;
-    top: 326px;
-}
-
-.element14 {
-    right: 29px;
-    top: 404px;
-}
-
-/* spot 각 요소별 위치 설정 */
-#spot-body1 {
-    left: 281px;
-    top: 167px;
-}
-
-#spot-body2 {
-    left: 233px;
-    top: 195px;
-}
-
-#spot-body3 {
-    left: 205px;
-    top: 302px;
-}
-
-#spot-body4 {
-    left: 281px;
-    top: 288px;
-}
-
-#spot-body5 {
-    left: 191px;
-    top: 368px;
-}
-
-#spot-body6 {
-    left: 527px;
-    top: 231px;
-}
-
-#spot-body7 {
-    left: 527px;
-    top: 316px;
-}
-
-#spot-body8 {
-    left: 562px;
-    top: 382px;
-}
-
-#spot-body9 {
-    left: 555px;
-    top: 492px;
-}
-
-#spot-body10 {
-    left: 555px;
-    top: 607px;
-}
-
-#spot-head11 {
-    right: 247px;
-    top: 178px;
-}
-
-#spot-head12 {
-    right: 220px;
-    top: 195px;
-}
-
-#spot-head13 {
-    right: 269px;
-    top: 201px;
-}
-
-#spot-head14 {
-    right: 269px;
-    top: 223px;
+/*---------------------------------------------------------------------------------------*/
+/* 직선 관련 설정 */
+.diagonal {
+    position: absolute;
+    border: 1px solid #9d1c20;
+    background-color: #9d1c20;
 }
 
 /* 라인 각 요소별 위치 설정 */
+/* figma px 설정 시 맞지 않는 부분에 대해서는 눈 대중으로 위치 수정 */
+/* 목 */
 #line1 {
     transform: rotate(-161.77deg);
     margin-top: 153px;
@@ -151,12 +19,14 @@
     */
 }
 
+/* 어깨 */
 #line2 {
     transform: rotate(-177.65deg);
     margin-top: 204px;
     margin-left: 125px;
 }
 
+/* 팔꿈치 */
 #line3 {
     transform: rotate(-160.11deg);
     margin-top: 300px;
@@ -165,6 +35,7 @@
     /*125px*/
 }
 
+/* 허리 */
 #line4 {
     transform: rotate(161.16deg);
     margin-top: 330px;
@@ -173,6 +44,7 @@
     /*125px*/
 }
 
+/* 손,손목 */
 #line5 {
     transform: rotate(145.01deg);
     margin-top: 406px;
@@ -181,6 +53,7 @@
     /*125px*/
 }
 
+/* 가슴 */
 #line6 {
     transform: rotate(180deg);
     margin-top: 245px;
@@ -189,6 +62,7 @@
     /*541px*/
 }
 
+/* 배 */
 #line7 {
     transform: rotate(176.05deg);
     margin-top: 323px;
@@ -197,6 +71,7 @@
     /*541px*/
 }
 
+/* 골반 */
 #line8 {
     transform: rotate(-178.44deg);
     margin-top: 396px;
@@ -205,6 +80,7 @@
     /*576px*/
 }
 
+/* 무릎 */
 #line9 {
     transform: rotate(166.08deg);
     margin-top: 490px;
@@ -213,6 +89,7 @@
     /*569px*/
 }
 
+/* 발,발목 */
 #line10 {
     transform: rotate(150.57deg);
     margin-top: 587px;
@@ -221,6 +98,7 @@
     /*569px*/
 }
 
+/* 눈 */
 #line11 {
     transform: rotate(180deg);
     margin-top: 189px;
@@ -229,6 +107,7 @@
     /*937px*/
 }
 
+/* 귀 */
 #line12 {
     transform: rotate(26.01deg);
     margin-top: 235px;
@@ -237,6 +116,7 @@
     /*964px*/
 }
 
+/* 코 */
 #line13 {
     transform: rotate(37.6deg);
     margin-top: 278px;
@@ -245,6 +125,7 @@
     /*915x*/
 }
 
+/* 입 */
 #line14 {
     transform: rotate(47.04deg);
     margin-top: 327px;

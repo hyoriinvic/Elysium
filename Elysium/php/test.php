@@ -1,5 +1,5 @@
 <?php
-$db_con = mysqli_connect("localhost", "root", "patient_info");
+$db_con = mysqli_connect("localhost", "root", "qpwoeiruty98!");
 if ($db_con){
   echo "DB 연결 성공<p>";
 } else {
