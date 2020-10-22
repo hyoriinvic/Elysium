@@ -13,16 +13,16 @@ img {
     width: 398px;
     left: 399px;
     border-radius: 0px;
-    background-color: #FFFFFF;
-    border: 1px solid #A8A9AD;
+    background-color: #ffffff;
+    border: 1px solid #a8a9ad;
     box-sizing: border-box;
 }
 
-.patientName {
+#patientName {
     top: 269px;
 }
 
-.patientPhone {
+#patientPhone {
     top: 327px;
 }
 
@@ -33,14 +33,14 @@ img {
     margin-top: 385px;
     border-radius: 0px;
 
-    background: #FFFFFF;
-    border: 1px solid #A8A9AD;
+    background: #ffffff;
+    border: 1px solid #a8a9ad;
     box-sizing: border-box;
 }
 
 .btn {
     position: absolute;
-    background-color: #9D1C20;
+    background-color: #9d1c20;
 
     font-size: 16px;
     font-style: normal;
@@ -51,7 +51,7 @@ img {
     border: 0;
 }
 
-.searchAddress {
+#searchAddress {
     height: 48px;
     width: 103px;
     left: 694px;
@@ -61,7 +61,7 @@ img {
 }
 
 /* 증상 입력하기 button */
-.submitInfo {
+#submitInfo {
     height: 56px;
     width: 398px;
     left: 399px;
@@ -70,10 +70,10 @@ img {
     color: white;
 }
 
-.identificationNumber {
+#identificationNumber {
     top: 443px;
 }
 
-.recommender {
+#recommender {
     top: 501px;
 }
