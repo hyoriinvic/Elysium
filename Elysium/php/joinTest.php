@@ -25,3 +25,4 @@ if (mysqli_query($mysqli, $sql)) {
     echo "Table Fail: " . mysqli_error($mysqli);
 }
 mysqli_close($mysqli);
+?>
