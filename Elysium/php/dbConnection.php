@@ -2,13 +2,15 @@
 <html lang="ko">
     <head>
     <meta charset="utf-8">
-    <title>patient info</title>
+    <title>Patients Information</title>
     <body>
         <?php
+
         $host = 'localhost';
         $user = 'hyoriinvic';
         $pw = 'qpwoeiruty98!';
         $dbName = 'patient_info';
+
         $mysqli = new mysqli($host, $user, $pw, $dbName);
             $patientName = $_POST['patientName'];
             $patientPhone = $_POST['patientPhone'];
@@ -24,7 +26,9 @@
                 echo "<script>alert(\"등록에 실패했습니다. 관리자에게 문의하십시오.\");</script>";
             };
             header('location:http://hyoriinvic.dothome.co.kr/sympton1.php');
+
         mysqli_close($mysqli);
+        
         ?>
 
         <input type='button' value='메인으로 가기' onclick="location'=http://hyoriinvic.dothome.co.kr/main.php'">

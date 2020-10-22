@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="css/basic.css" />
     <link rel="stylesheet" href="css/sympton2/sympton2.css" />
     <script language="javascript">
-        function showPopup(){
-            window.open("complete.html", "접수 완료_팝업", "width=400, height=300, left=100, top=50");
+        function btn_alert(){
+            alert("접수가 완료되었습니다.")
+            location.href = "./main.html" /* 클릭 시 맨 처음 페이지로 이동*/
         }</script>
 </head>
 
@@ -137,7 +138,7 @@
             <input type="checkbox" id="else">
             <label class="btn" for="else">기타</label>
         </section>
-        <button class="btn submitInfo" type="button" onclick="showPopup()">접수하기</button>
+        <button class="btn submitInfo" type="button" onclick="btn_alert()">접수하기</button>
     </form>
 </body>
 
