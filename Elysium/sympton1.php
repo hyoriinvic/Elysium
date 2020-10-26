@@ -53,4 +53,5 @@
     <footer>
         <button id="submitInfo" type="button" onclick="location.href='http://hyoriinvic.dothome.co.kr/sympton2.php'">제출하기</button>
     </footer>
+    <script type="text/javascript" src="./js/sympton1.js"></script>
 </html>
