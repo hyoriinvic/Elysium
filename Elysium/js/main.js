@@ -1,6 +1,6 @@
 $(document).ready(function () {
     $('#submitInfo').click(function () {
-        var action = $('#Login').attr('action');
+        var action = $('#login').attr('action');
         var form_data = {
             patientName: $("#patientName").val(),
             patientPhone: $("patientPhone").val()

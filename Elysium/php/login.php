@@ -14,9 +14,9 @@ include "config.php";
 $patientName = $_POST['patientName'];
 $patientPhone = $_POST['patientPhone'];
 
-$query = "SELECT * FROM patient_info WHERE patientName = '$patientName' AND patientPhone = '$patientPhone'";
+$existingPatient = "SELECT * FROM patient_info WHERE patientName = '$patientName' AND patientPhone = '$patientPhone'";
 
-$result = mysqli_query($db_handle, $query);
+$result = mysqli_query($mysqli, $existingPatient);
 $row = mysqli_fetch_array($result);
 
 if ($patientName === $row['patientName'] && $patientPhone === $row['patientPhone']) {
@@ -26,15 +26,15 @@ if ($patientName === $row['patientName'] && $patientPhone === $row['patientPhone
 
     ?>
             <script>
-                alert("로그인 되었습니다.");
-                location.href='http://hyoriinvic.dothome.co.kr/sympthon1.php';
+                // alert("Success.");
+                // location.href='http://hyoriinvic.dothome.co.kr/sympthon1.php';
             </script>
         <?php
 } else {
     echo "session fail";
     ?>
             <script>
-                alert("입력한 정보가 일치하지 않습니다.");
+                alert("Fail. Information not matched.");
                 history.back()
             </script>
         <?php
