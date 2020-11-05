@@ -1,5 +1,3 @@
-<!-- 등록에 실패했습니다가 뜨는 상태 - because of 'null given' -->
-
 <!doctype html>
 <html lang="ko">
     <head>
@@ -7,10 +5,18 @@
     <title>Patients Information</title>
     <body>
         <?php
-// header('location:http://hyoriinvic.dothome.co.kr/registration.php');
+
+// $hostName = "localhost";
+// $user = "hyoriinvic";
+// $password = "King5609!";
+// $dbName = "hyoriinvic";
+
+// $mysqli = mysqli_connect($hostName, $user, $password) or die("db connect error");
+// $db_handle = mysqli_select_db($mysqli, $dbName) or die("db connect error");
 
 include "config.php";
-mysqli_set_charset($mysqli, "utf8"); // 문자셋 설정, utf8
+
+// mysqli_set_charset($db_handle, "utf8"); // 문자셋 설정, utf8
 
 $patientName = $_POST['patientName']; //성명
 $patientPhone = $_POST['patientPhone']; //전화번호
@@ -27,8 +33,9 @@ if ($mysqli->query($sql)) {
     echo "<script>alert(\"등록에 실패했습니다. 관리자에게 문의하십시오.\");</script>";
 }
 
+// header('location:http://hyoriinvic.dothome.co.kr/registration.php');
+
 mysqli_close($mysqli);
 ?>
-        <input type='button' value='메인으로 가기' onclick="location'=http://hyoriinvic.dothome.co.kr/main.php'">
     </body>
 </html>

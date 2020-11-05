@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8" />
     <title>Kyung-hee Oriental Clinic</title>
-    <link rel="stylesheet" href="css/basic.css" />
+    <link rel="stylesheet" href="css/background.css" />
     <link rel="stylesheet" href="css/sympton2/sympton2.css" />
     <script language="javascript">
         function btn_alert(){

@@ -1,4 +1,3 @@
-/*현재는 비반응형 웹 상태*/
 /*경희 한의원 로고 배치*/
 img {
   position: absolute;
@@ -20,11 +19,11 @@ img {
 }
 
 #patientName {
-  margin-top: 380px;
+  top: 457px;
 }
 
 #patientPhone {
-  margin-top: 10px;
+  top: 515px;
 }
 
 /* 증상 입력하기 button */
@@ -33,7 +32,7 @@ img {
   height: 56px;
   width: 398px;
   left: 399px;
-  margin-top: 15px;
+  top: 578px;
   border-radius: 0px;
   border: 0;
   background-color: #9d1c20;
@@ -47,7 +46,6 @@ img {
   color: #ffffff;
 }
 
-/* 아래 2개는 왜 시키는대로 해도 한 줄에 안 나오는 거죠?*/
 /* 처음 방문하셨습니까? */
 span {
   position: absolute;
