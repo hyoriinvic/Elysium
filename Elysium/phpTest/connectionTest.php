@@ -1,3 +1,4 @@
+<!-- 테스트 결과: 연결 성공  -->
 <!DOCTYPE html>
 
 <head>
@@ -14,7 +15,7 @@ $user = 'hyoriinvic'; // 계정명
 $pw = 'King5609!'; // 비밀번호
 $dbName = 'hyoriinvic'; // 데이터베이스명
 
-$db = mysqli_connect($host, $user, $pw, $dbName);
+$db = mysqli_connect($host, $user, $pw, $dbName); //MySQL 연결
 
 if ($db) {
     echo "connect : Success<br>";
@@ -22,8 +23,8 @@ if ($db) {
     echo "Connect : Fail<br>";
 }
 
-$result = mysqli_query($db, 'SELECT VERSION() as VERSION');
-$data = mysqli_fetch_assoc($result);
+$result = mysqli_query($db, 'SELECT VERSION() as VERSION'); //MySQL 쿼리 실행
+$data = mysqli_fetch_assoc($result); //MySQL 레코드 가져오기
 echo $data['VERSION'];
 ?>
 </body>
