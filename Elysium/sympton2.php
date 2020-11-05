@@ -15,8 +15,8 @@
 </head>
 
 <body>
-    <img id="body" src="image/image 1.png" />
-    <img id="head" src="image/image 2.png" />
+    <img id="body" src="image/body.png" />
+    <img id="head" src="image/head.png" />
     <form>
         <section class="checkbox-container" id="body-img">
             <div>

@@ -15,8 +15,8 @@
 
     <form method='post' action = "./php/connectionTest.php">
         <main>
-            <div><input class="info patientName" required placeholder="이름" autocomplete='off' type="text" /></div>
-            <div><input class="info patientPhone" required placeholder="전화번호" autocomplete='off' type="tel" /></div>
+            <div><input class="info" id="patientName" required placeholder="이름" autocomplete='off' type="text" /></div>
+            <div><input class="info" id="patientPhone" required placeholder="전화번호" autocomplete='off' type="tel" /></div>
         </main>
         <div>
             <button id="submitInfo" type="button" onclick="location.href='http://hyoriinvic.dothome.co.kr/sympton1.php'">증상 입력하기</button>

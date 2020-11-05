@@ -5,7 +5,7 @@ function selectCheckedRow() {
     var chk = document.getElementsByClassName("checkbox-container"); // 체크박스객체를 담는다
     var len = chk.length;    //체크박스의 전체 개수
     var checkRow = '';      //체크된 체크박스의 value를 담기위한 변수
-    var checkCnt = 0;        //체크된 체크박스의 개수
+    var checkCnt = 0;        //체크된 체크박스의 개수   
     var checkLast = '';      //체크된 체크박스 중 마지막 체크박스의 인덱스를 담기위한 변수
     var rowid = '';             //체크된 체크박스의 모든 value 값을 담는다
     var cnt = 0;

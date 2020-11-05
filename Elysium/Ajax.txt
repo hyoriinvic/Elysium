@@ -1,0 +1,33 @@
+회원등록 시 : 데이터베이스에 데이터 올리고 저장하기.
+등록된 회원 증상 가져오기.
+
+AJAX(Asynchronous Javascript And XML): 비동기식 자바스크립트 XML - 서버와의 통신
+
+방법 1. Javascript XML 객체 (XMLHttpRequest)
+방법 2. JQuery 함수,  ajax()
+
+JQuery example.
+<body>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> <!-- Jquery의 cdn 연결. -->
+    <button id = "start_ajax">서버와의 통신 시작</button>
+
+    <script>
+        $("#start_ajax").click(function(){
+            $.ajax({
+                type: "POST", //통신 타입 POST or GET
+                url: "./book.jsp", //요청할 URL
+                data: {name: "홍길동"}, //서버에 요청 시 보낼 파라미터
+                success: function(xml){ //요청 및 응답 성공 시,
+                    console.log(xml);
+                }
+                error: function(xhr, status, error){ //요청 및 응답 실패 시,
+                    alert(error);
+                }
+            });
+        });
+    </script>
+</body>
+
+참고 문헌
+- JQuery Library https://api.jquery.com/jquery.ajax/ 
+- 자주 사용하는 파라미터 설명 및 예제 https://kamang-it.tistory.com/entry/RESTfulajaxjquery-ajax%EC%82%AC%EC%9A%A9%EB%B2%95-2?category=693873

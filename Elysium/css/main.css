@@ -19,11 +19,11 @@ img {
   background-color: #ffffff;
 }
 
-.patientName {
+#patientName {
   margin-top: 380px;
 }
 
-.patientPhone {
+#patientPhone {
   margin-top: 10px;
 }
 
