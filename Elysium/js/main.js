@@ -3,7 +3,7 @@ $(document).ready(function () {
         var action = $('#login').attr('action');
         var form_data = {
             patientName: $("#patientName").val(),
-            patientPhone: $("patientPhone").val()
+            patientPhone: $("#patientPhone").val()
         };
         $.ajax({
             type: 'POST',

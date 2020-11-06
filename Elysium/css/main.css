@@ -19,11 +19,11 @@ img {
 }
 
 #patientName {
-  top: 457px;
+  margin-top: 380px;
 }
 
 #patientPhone {
-  top: 515px;
+  margin-top: 10px;
 }
 
 /* 증상 입력하기 button */
@@ -32,7 +32,7 @@ img {
   height: 56px;
   width: 398px;
   left: 399px;
-  top: 578px;
+  margin-top: 15px;
   border-radius: 0px;
   border: 0;
   background-color: #9d1c20;

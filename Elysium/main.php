@@ -8,8 +8,8 @@
     <title>Kyung-hee Oriental Clinic</title>
     <link rel="stylesheet" href="css/background.css" />
     <link rel="stylesheet" href="css/main.css" />
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> <!-- jquery cdn -->
+    <!-- jquery cdn -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  -->
 </head>
 
 <body>
@@ -27,7 +27,7 @@
         <a href="http://hyoriinvic.dothome.co.kr/registration.php" target="_self">환자등록</a>
     </div>
 
-    <script type="text/javascript" src="/js/main.js"></script>
+    <!-- <script type="text/javascript" src="/js/main.js"></script> -->
 </body>
 
 </html>

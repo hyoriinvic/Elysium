@@ -1,11 +1,4 @@
-<!DOCTYPE html>
 
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Registeration</title>
-</head>
-
-<body>
 <?php
 
 // $hostName = "localhost";
@@ -25,6 +18,8 @@ $clinicAddress = $_POST['clinicAddress']; //한의원 주소
 $identificationNumber = $_POST['identificationNumber']; //주민등록번호
 $recommender = $_POST['recommender']; //추천자
 
+// echo (array("mode" => $_REQUEST['mode'], "patientName" => $patientName, "patientPhone" => $patientPhone, "clinicAddress" => $clinicAddress, "identificationNumber" => $identificationNumber, "recommender" => $recommender));
+
 //query 전송
 $patientQuery = 'insert into patient_info (patientName, patientPhone, clinicAddress, identificationNumber, recommender)';
 $patientQuery = $patientQuery . "values ($patientName, $patientPhone, $clinicAddress, $identificationNumber, $recommender)";
@@ -41,6 +36,4 @@ if (mysqli_query($mysqli, $patientQuery)) {
 
 mysqli_close($mysqli);
 ?>
-</body>
-</html>
 

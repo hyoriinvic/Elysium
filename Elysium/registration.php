@@ -3,16 +3,18 @@
 <html lang="kr">
 
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8"   />
     <title>Kyung-hee Oriental Clinic</title>
     <link rel="stylesheet" href="css/background.css" />
     <link rel="stylesheet" href="css/registration.css" />
+    <!-- jquery cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
 <body>
     <image src="image/logo.png" alt="Kyunghee Oriental Clinic"/>
 
-    <form method='post' action="./php/join.php">
+    <form id='register' name='register' method='post' action="./php/join.php">
         <div><input class="info" id="patientName" name = "patientName" required placeholder="이름" type="text" /></div>
         <div><input class="info" id="patientPhone" name = "patientPhone" required placeholder="전화번호" type="tel" /></div>
         <div>
@@ -22,8 +24,13 @@
         <div><input class="info" id="identificationNumber" name="identificationNumber" required placeholder="주민등록번호" type="text" required pattern="[0-9]{13}" /></div>
         <div><input class="info" id="recommender" name="recommender" placeholder="소개환자(선택)" type="text" /></div>
     </form>
+
+    <!-- <button class="btn" id="submitInfo" type="button"
+        onclick="location.href='http://hyoriinvic.dothome.co.kr/sympton1.php'">증상 입력하기</button> -->
     <button class="btn" id="submitInfo" type="button"
-        onclick="location.href='http://hyoriinvic.dothome.co.kr/sympton1.php'">증상 입력하기</button>
+        onclick="AjaxCall('POST');">증상 입력하기</button>
+
+    <script type="text/javascript" src="./js/registeration.js"></script>
 </body>
 
 </html>

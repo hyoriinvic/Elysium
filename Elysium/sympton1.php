@@ -17,7 +17,7 @@
     <form>
         <div class="checkbox-container">
             <div>
-                <input type="checkbox" id="high_blood_pressure">
+                <input type="checkbox" id="high_blood_pressure" onclick="handleClick(this);">
                 <label class="btn1" for="high_blood_pressure">고혈압</label>
             </div>
             <div>
@@ -53,5 +53,6 @@
     <footer>
         <button id="submitInfo" type="button" onclick="location.href='http://hyoriinvic.dothome.co.kr/sympton2.php'">제출하기</button>
     </footer>
-    <script type="text/javascript" src="./js/sympton1.js"></script>
+    <!-- <script type="text/javascript" src="./js/sympton1.js"></script> -->
+    <!-- <script type="text/javascript" src="./js/check.js"></script> -->
 </html>

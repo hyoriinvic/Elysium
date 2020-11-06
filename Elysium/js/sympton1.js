@@ -2,8 +2,9 @@
 
 // 1. 체크박스의 체크된 값만 가져오는 함수 작성 
 function selectCheckedRow() {
-    var chk = document.getElementsByClassName("checkbox-container"); // 체크박스객체를 담는다
-    var len = chk.length;    //체크박스의 전체 개수
+    const chk = document.getElementsByClassName("btn1"); // 체크박스객체를 담는다
+    const len = chk.length;    //체크박스의 전체 개수
+
     var checkRow = '';      //체크된 체크박스의 value를 담기위한 변수
     var checkCnt = 0;        //체크된 체크박스의 개수   
     var checkLast = '';      //체크된 체크박스 중 마지막 체크박스의 인덱스를 담기위한 변수

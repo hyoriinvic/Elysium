@@ -20,14 +20,15 @@ $result = mysqli_query($mysqli, $existingPatient);
 $row = mysqli_fetch_array($result);
 
 if ($patientName === $row['patientName'] && $patientPhone === $row['patientPhone']) {
+    //session , local
     session_start();
     $_SESSION['patientName'] = $row['patientName'];
     $_SESSION['patientPhone'] = $row['patientPhone'];
 
     ?>
             <script>
-                // alert("Success.");
-                // location.href='http://hyoriinvic.dothome.co.kr/sympthon1.php';
+                alert("Success.");
+                location.href='http://hyoriinvic.dothome.co.kr/sympthon1.php';
             </script>
         <?php
 } else {
