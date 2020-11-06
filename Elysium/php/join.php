@@ -12,17 +12,15 @@
 
 include "config.php";
 
-$patientName = $_POST['patientName']; //성명
-$patientPhone = $_POST['patientPhone']; //전화번호
-$clinicAddress = $_POST['clinicAddress']; //한의원 주소
-$identificationNumber = $_POST['identificationNumber']; //주민등록번호
-$recommender = $_POST['recommender']; //추천자
-
-// echo (array("mode" => $_REQUEST['mode'], "patientName" => $patientName, "patientPhone" => $patientPhone, "clinicAddress" => $clinicAddress, "identificationNumber" => $identificationNumber, "recommender" => $recommender));
+$join_patientName = $_POST['join_patientName']; //성명
+$join_patientPhone = $_POST['join_patientPhone']; //전화번호
+$join_clinicAddress = $_POST['join_clinicAddress']; //한의원 주소
+$join_identificationNumber = $_POST['join_identificationNumber']; //주민등록번호
+$join_recommender = $_POST['join_recommender']; //추천자
 
 //query 전송
-$patientQuery = 'insert into patient_info (patientName, patientPhone, clinicAddress, identificationNumber, recommender)';
-$patientQuery = $patientQuery . "values ($patientName, $patientPhone, $clinicAddress, $identificationNumber, $recommender)";
+$patientQuery = 'insert into patient_info (join_patientName, join_patientPhone, join_clinicAddress, join_identificationNumber, join_recommender)';
+$patientQuery = $patientQuery . "values ($join_patientName, $join_patientPhone, $join_clinicAddress, $join_identificationNumber, $join_recommender)";
 
 mysqli_query($mysqli, $patientQuery);
 

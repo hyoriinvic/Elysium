@@ -11,19 +11,19 @@
 
 include "config.php";
 
-$patientName = $_POST['patientName'];
-$patientPhone = $_POST['patientPhone'];
+$join_patientName = $_POST['join_patientName'];
+$join_patientPhone = $_POST['join_patientPhone'];
 
-$existingPatient = "SELECT * FROM patient_info WHERE patientName = '$patientName' AND patientPhone = '$patientPhone'";
+$existingPatient = "SELECT * FROM patient_info WHERE join_patientName = '$join_patientName' AND join_patientPhone = '$join_patientPhone'";
 
 $result = mysqli_query($mysqli, $existingPatient);
 $row = mysqli_fetch_array($result);
 
-if ($patientName === $row['patientName'] && $patientPhone === $row['patientPhone']) {
+if ($join_patientName === $row['join_patientName'] && $join_patientPhone === $row['join_patientPhone']) {
     //session , local
     session_start();
-    $_SESSION['patientName'] = $row['patientName'];
-    $_SESSION['patientPhone'] = $row['patientPhone'];
+    $_SESSION['join_patientName'] = $row['join_patientName'];
+    $_SESSION['join_patientPhone'] = $row['join_patientPhone'];
 
     ?>
             <script>

@@ -18,15 +18,15 @@ img {
     box-sizing: border-box;
 }
 
-#patientName {
+#join_patientName {
     top: 269px;
 }
 
-#patientPhone {
+#join_patientPhone {
     top: 327px;
 }
 
-#clinicAddress {
+#join_clinicAddress {
     height: 48px;
     width: 398px;
     margin-left: 399px;
@@ -70,10 +70,10 @@ img {
     color: white;
 }
 
-#identificationNumber {
+#join_identificationNumber {
     top: 443px;
 }
 
-#recommender {
+#join_recommender {
     top: 501px;
 }

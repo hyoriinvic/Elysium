@@ -16,8 +16,8 @@
     <img src="image/logo.png" alt="Kyunghee Oriental" />
 
     <form id='login' name='login' action='./php/login.php' method='post'>
-        <div><input class="info" id="patientName" required placeholder="이름" autocomplete='off' type="text" /></div>
-        <div><input class="info" id="patientPhone" required placeholder="전화번호" autocomplete='off' type="tel" /></div>
+        <div><input class="info" id="join_patientName" required placeholder="이름" autocomplete='off' type="text" /></div>
+        <div><input class="info" id="join_patientPhone" required placeholder="전화번호" autocomplete='off' type="tel" /></div>
     </form>
     <div>
         <button id="submitInfo" type="button" onclick="location.href='http://hyoriinvic.dothome.co.kr/sympton1.php'">증상 입력하기</button>
