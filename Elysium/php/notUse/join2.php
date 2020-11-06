@@ -6,7 +6,7 @@
 </head>
 <body>
         <?php
-            include "config2.php";
+            include "config.php";
             $join_patientName = $_POST['join_patientName'];
             $join_patientTel = $_POST['join_patientTel'];
             $join_addressSearch = $_POST[ 'join_addressSearch'];

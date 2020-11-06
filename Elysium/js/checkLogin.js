@@ -1,5 +1,5 @@
 function check_login() {
     $.ajax({
         type: 'POST',
-        url: 'lib/login.php',
+        url: './php/login.php',
         data: "username=" + $('#username').val() + "&password=" + $('#password').val(),
