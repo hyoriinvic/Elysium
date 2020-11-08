@@ -20,11 +20,11 @@
         <div><input class="info" id="join_patientPhone" required placeholder="전화번호" autocomplete='off' type="tel" /></div>
     </form>
     <div>
-        <button id="submitInfo" type="button" onclick="location.href='http://hyoriinvic.dothome.co.kr/sympton1.php'">증상 입력하기</button>
+        <button id="submitInfo" type="button" onclick="location.href='http://127.0.0.1/sympton1.php'">증상 입력하기</button>
     </div>
     <div>
         <span>처음 방문하셨습니까?</span>
-        <a href="http://hyoriinvic.dothome.co.kr/registration.php" target="_self">환자등록</a>
+        <a href="http://127.0.0.1/registration.php" target="_self">환자등록</a>
     </div>
 
     <!-- <script type="text/javascript" src="/js/main.js"></script> -->

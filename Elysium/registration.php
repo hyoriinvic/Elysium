@@ -26,8 +26,9 @@
     </form>
 
     <!-- <button class="btn" id="submitInfo" type="button"
-        onclick="location.href='http://hyoriinvic.dothome.co.kr/sympton1.php'">증상 입력하기</button> -->
-    <button class="btn" id="submitInfo" type="button">증상 입력하기</button>
+        onclick="location.href='http://127.0.0.1/sympton1.php'">증상 입력하기</button> -->
+    <button class="btn" id="submitInfo" type="button"
+    onclick="location.href='http://127.0.0.1/sympton1.php'">증상 입력하기</button>
 
     <script type="text/javascript" src="./js/registeration.js"></script>
 </body>

@@ -28,7 +28,7 @@ if ($join_patientName === $row['join_patientName'] && $join_patientPhone === $ro
     ?>
             <script>
                 alert("Success.");
-                location.href='http://hyoriinvic.dothome.co.kr/sympthon1.php';
+                location.href='http://127.0.0.1/sympthon1.php';
             </script>
         <?php
 } else {

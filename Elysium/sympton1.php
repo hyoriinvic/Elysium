@@ -7,6 +7,8 @@
     <title>Kyung-hee Oriental Clinic</title>
     <link rel="stylesheet" href="css/background.css" />
     <link rel="stylesheet" href="css/sympton1/sympton1.css" />
+    <!-- jquery cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -17,42 +19,44 @@
     <form>
         <div class="checkbox-container">
             <div>
-                <input type="checkbox" id="high_blood_pressure" onclick="handleClick(this);">
+                <input type="checkbox" value="0" id="high_blood_pressure" onclick="valueChange1();">
                 <label class="btn1" for="high_blood_pressure">고혈압</label>
             </div>
             <div>
-                <input type="checkbox" id="diabetes">
+                <input type="checkbox" value="0" id="diabetes" onclick="valueChange1();">
                 <label class="btn1" for="diabetes">당뇨</label>
             </div>
             <div>
-                <input type="checkbox" id="hepatitis">
+                <input type="checkbox" value="0" id="hepatitis" onclick="valueChange1();">
                 <label class="btn1" for="hepatitis">간염</label>
             </div>
             <div>
-                <input type="checkbox" id="allergy">
+                <input type="checkbox" value="0" id="allergy" onclick="valueChange1();">
                 <label class="btn1" for="allergy">알레르기</label>
             </div>
             <div>
-                <input type="checkbox" id="surgery_history">
+                <input type="checkbox" value="0" id="surgery_history" onclick="valueChange1();">
                 <label class="btn1" for="surgery_history">수술 이력</label>
             </div>
             <div>
-                <input type="checkbox" id="medication">
+                <input type="checkbox" value="0" id="medication" onclick="valueChange1();">
                 <label class="btn1" for="medication">복용약</label>
             </div>
             <div>
-                <input type="checkbox" id="drinking">
+                <input type="checkbox" value="0" id="drinking" onclick="valueChange1();">
                 <label class="btn2" for="drinking">음주</label>
             </div>
             <div>
-                <input type="checkbox" id="smoking">
+                <input type="checkbox" value="0" id="smoking" onclick="valueChange1();">
                 <label class="btn2" for="smoking">흡연</label>
             </div>
         </div>
     </form>
     <footer>
-        <button id="submitInfo" type="button" onclick="location.href='http://hyoriinvic.dothome.co.kr/sympton2.php'">제출하기</button>
+        <button id="submitInfo" type="button" onclick="location.href='http://127.0.0.1/sympton2.php'">제출하기</button>
     </footer>
     <!-- <script type="text/javascript" src="./js/sympton1.js"></script> -->
     <!-- <script type="text/javascript" src="./js/check.js"></script> -->
+    <script type="text/javascript" src="./js/selectSymptom.js"></script>
+    </body>
 </html>

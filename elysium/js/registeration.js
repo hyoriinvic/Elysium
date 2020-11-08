@@ -7,7 +7,7 @@ function patientData() {
 }
 
 function AjaxCall(method) {
-    var action = $('#login').attr('action');
+    var action = $('#register').attr('action');
 
     $.ajax({
         type: method,
