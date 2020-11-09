@@ -15,12 +15,9 @@ function AjaxCall(method) {
         data: patientData(),
         success: function (response) {
             alert("Success");
-            // php POST 전달값 확인
-            echo('<pre>'); print_r($_POST); echo('</pre>');
         },
         error: function () {
             $('#msg').html('<h2>error</h2>');
         }
     });
 }
-
