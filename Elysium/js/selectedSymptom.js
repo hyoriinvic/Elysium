@@ -1,20 +1,36 @@
+/*  증상 선택 버튼의 구조: 
+<div>
+  <input type="checkbox" class="btns" id="something">
+  <label class="btn1" for="something">증상명</label>
+</div>
+
+해당 구조에서 input tag의 property 를 기준으로 함수 작성
+class = "btns"
+*/
+
 function isChecked() {
   let btns = document.getElementsByClassName("btns");
-  console.log(btns); // 클래스명이 btn1인 elements 배열
+  // console.log(btns); // 클래스명이 btn1인 elements 배열
 
-  var checked = []; //check 여부를 저장할 배열 (1: checked, 0: not checked)
+  // var checked = []; //check 여부를 저장할 배열 (1: checked, 0: not checked)
 
   $.each(btns, function (index, item) {
     if ($(item).is(":checked")) {
-      checked.push("1");
+      $(item).val() = "1";
+      // checked.push("1");
     } else {
-      checked.push("0");
+      $(item).val() = "0";
+      // checked.push("0");
     }
   })
-  console.log(checked); // 생성된 배열 확인
-  return checked;
+  // console.log(checked); // 생성된 배열 확인
+  // return checked;
 }
 
+// 아래의 함수는 사용하지 않습니다
+// _________________________________________________________________________________________________ //
+
+/*
 function checkedButton() {
   let btns = document.getElementsByClassName("btns");
   console.log(btns); // 클래스명이 btn1인 elements 배열
@@ -43,6 +59,7 @@ function checkedButtonIndex() {
   console.log(checkedBtnsIndex); // 저장된 index 확인
   return checkedBtnsIndex;
 }
+*/
 
 
 // function checkedButton() {
