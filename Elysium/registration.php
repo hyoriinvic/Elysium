@@ -101,15 +101,28 @@
         <div><input class="info" id="join_patientName" name = "join_patientName" required placeholder="이름" type="text" required/></div>
         <div><input class="info" id="join_patientTel" name = "join_patientTel" required placeholder="전화번호" type="tel" required/></div>
         <div>
+<<<<<<< HEAD
             <input id="join_addressSearch" name="join_addressSearch" required placeholder="한의원 주소를 검색하세요." type="text" />
             <button class="btn" id="searchAddress" onclick="sample6_execDaumPostcode()">주소 검색</button>
+=======
+            <input id="join_addressSearch" name="join_addressSearch" required placeholder="주소를 검색하세요." type="text" />
+            <button class="btn" id="searchAddress">주소 검색</button>
+>>>>>>> 67d54a733ec925f3e355b0d3441a623b271cce03
         </div>
         <div><input class="info" id="join_addressDetail" name = "join_addressDetail" required placeholder="상세 주소" type="text"/></div>
         <div><input class="info" id="join_addressExtra" name = "join_addressExtra" required placeholder="참고 항목" type="text"/></div>
         <div><input class="info" id="join_juminNumber" name="join_juminNumber" required placeholder="주민등록번호" type="text" required pattern="[0-9]{13}" /></div>
         <div><input class="info" id="join_recommendPatient" name="join_recommendPatient" placeholder="소개환자(선택)" type="text" /></div>
+<<<<<<< HEAD
     <button class="btn" id="submitInfo" type="submit">증상 입력하기</button>
 </form>
+=======
+    </form>
+
+    <button class="btn" id="submitInfo" type="button">증상 입력하기</button>
+
+    <script type="text/javascript" src="./js/registeration.js"></script>
+>>>>>>> 67d54a733ec925f3e355b0d3441a623b271cce03
 </body>
 
 </html>
